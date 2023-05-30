@@ -23,8 +23,53 @@
     line-height: 15px;
     color: var(--white);
 }
+
+.fleet_hours {
+    padding: 6px 9px;
+    display: flex;
+    width: 243px;
+}
+.fleet_hours.no--split .fleet_hours-upcoming {
+    border-right: none;
+}
+.fleet_hours-upcoming {
+    padding-right: 12px;
+    border-right: 1px solid var(--light-gray);
+}
+.fleet_hours-title {
+    font-size: 0.75rem;
+    color: var(--white);
+    line-height: 1;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+.fleet_hours-name {
+    font-size: 0.625rem;
+    color: var(--light-gray);
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.fleet_hours-time {
+    font-size: 0.75rem;
+    color: var(--white);
+    line-height: 1;
+}
+.fleet_hours-Remaining {
+    padding-right: 3px;
+    padding-left: 12px;
+    flex: 1;
+}
+.fleet_hours-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .card--orange {
     background: var(--orange);
+}
+.text--l-orange {
+    color: var(--light-orange);
 }
 .card--blue {
     background: var(--dark-blue);
