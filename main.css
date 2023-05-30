@@ -1,0 +1,43 @@
+@import "colors.css";
+@import "fonts.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: openSansBold, serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.info {
+    padding: 7px 9px;
+    font-size: 0.75rem;
+    width: 214px;
+    height: auto;
+    line-height: 15px;
+    color: var(--white);
+}
+.card--orange {
+    background: var(--orange);
+}
+.card--blue {
+    background: var(--dark-blue);
+}
+.border-b-l{
+    border-radius: 3px 3px 0 3px;
+}
+.border-b-r{
+    border-radius: 3px 3px 3px 0;
+}
+.border-t-l {
+    border-radius: 0 3px 3px 3px;
+}
+.border-t-r{
+    border-radius: 3px 0 3px 3px;
+}
